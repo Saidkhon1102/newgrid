@@ -1,0 +1,122 @@
+/* global.css */
+:root {
+    --clr-purple: #805bfe;
+    --clr-yellow: #facc15;
+    --clr-light: #fef3c7;
+    --clr-white: #ffffff;
+    --clr-dark: #1f2937;
+    --clr-light-purple: #ede9fe;
+  
+    --fs-base: 1rem;
+    --fs-lg: 1.5rem;
+    --fs-xl: 2rem;
+  
+    --spacing-sm: 1em;
+    --spacing-md: 2em;
+    --spacing-lg: 3em;
+  
+    --br: 1.5em;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9fafb;
+    color: var(--clr-dark);
+    margin: 0;
+    padding: var(--spacing-md);
+    font-size: var(--fs-base);
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: var(--spacing-md);
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border-radius: var(--br);
+    padding: var(--spacing-sm);
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+  }
+  
+  .purple {
+    background-color: var(--clr-purple);
+    color: var(--clr-white);
+  }
+  
+  .yellow {
+    background-color: var(--clr-yellow);
+  }
+  
+  .light {
+    background-color: var(--clr-light);
+  }
+  
+  .white {
+    background-color: var(--clr-white);
+  }
+  
+  .light-purple {
+    background-color: var(--clr-light-purple);
+  }
+  
+  .button {
+    background-color: var(--clr-yellow);
+    color: var(--clr-dark);
+    padding: 0.5em 1em;
+    border-radius: 999px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .highlight {
+    font-style: italic;
+    color: var(--clr-purple);
+  }
+  
+  .highlight-yellow {
+    color: var(--clr-yellow);
+  }
+  
+  .stars {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+  
+  .week-check span {
+    margin-right: 0.5em;
+    font-weight: bold;
+  }
+  
+  .avatars img {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .chat-box {
+    background-color: var(--clr-white);
+    padding: 1em;
+    border-radius: 1em;
+    margin-top: 1em;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  .chart {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+  }
